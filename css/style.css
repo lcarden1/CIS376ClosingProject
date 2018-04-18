@@ -1,1 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Gugi');
+body, html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+}
+.bgimg-1 {
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  filter: grayscale(1);
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  background-image: url("http://www.gofands.com/images/hero-gray-truck.jpg");
+  height: 100%;
+}
+
+.caption {
+  font-family: 'Gugi', cursive;
+  font-size: 60px;
+  position: absolute;
+  right: 2%;
+  top: 45%;
+  text-align: center;
+  color: #00ffff;
+  display: none;
+}
+
+.PressForNew {
+    display: block;
+    background-color: white; 
+    color: black; 
+    border: 2px solid #f44336;
+    margin: auto;
+}
+
+.PressForNew:hover {
+    background-color: #f44336;
+    color: white;
+
+}
+
+p{
+  padding:5px 15px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
