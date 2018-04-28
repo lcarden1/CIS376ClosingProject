@@ -1,5 +1,5 @@
-# CIS376ClosingProject
-Final Project for CIS 376
+# Project7
 
-A Pen created by Tate Carden
-This is the closing project for CIS 376
+The goal of this was to develop a clean and crisp web page that worked from Github.
+
+The page basically allows the user to switch between two images and turn the color on and off. Found on w3schools.com; also developed from a template. 
