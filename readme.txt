@@ -14,19 +14,27 @@ This project was created on April 27th, 2018
 
 Checked validatior through https://validator.w3.org/
 
-HTML: 1 error
--Error: Element head is missing a required instance of child element title.
- From line 16, column 3; to line 16, column 9.
+HTML: 3 errors
+-The banner role is unnecessary for element header.
+From line 118, column 9; to line 118, column 90
+<header class="Header header-logged-out  position-relative f4 py-3" role="banner">↩  <di
+
+Stray end tag option.
+From line 158, column 41; to line 158, column 49
+</xmp> --></option></form
+
+The navigation role is unnecessary for element nav.
+From line 268, column 1; to line 272, column 41
+div> <nav class="reponav js-repo-nav js-sidenav-container-pjax container"    itemscope     itemtype="http://schema.org/BreadcrumbList"    role="navigation"    data-pjax="#js-repo-pjax-container"> <s
+
 
 CSS: 1 warning and 2 errors
 -This document appears to be written in English. Consider adding lang="en" (or variant) to the html start tag.
  From line 1, column 1; to line 1, column 74
--Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
- From line 1, column 1; to line 1, column 74
 -Element head is missing a required instance of child element title.
  From line 1, column 1; to line 1, column 74
  
-JS: 1 warning and 4 errors
+JS: 1 warning and 3 errors
 -This document appears to be written in English. Consider adding lang="en" (or variant) to the html start tag.
  From line 1, column 1; to line 1, column 63
 -Non-space characters found without seeing a doctype first. Expected <!DOCTYPE html>.
@@ -35,23 +43,20 @@ JS: 1 warning and 4 errors
  From line 1, column 1; to line 1, column 63
 -Bad character   after <. Probable cause: Unescaped <. Try escaping it as &lt;.
  At line 18, column 12
--Bad character   after <. Probable cause: Unescaped <. Try escaping it as &lt;.
- At line 41, column 12
+
  
  Resources:
- https://css-tricks.com/snippets/css/typewriter-effect/
  https://www.w3schools.com/
  
  Page Directory
  css
-  styles.css
+  >styles.css
  js
-  index.js
+  >index.js
 README.md
 index.html
 
-Page is a single column responsive design. 
-index.js has a function called typewriter that types sentences on the main page letter by letter, it repeats in a loop.
+Page is a single column multiple-responsive design. 
  
  
  
