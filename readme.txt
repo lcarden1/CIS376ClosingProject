@@ -1,8 +1,9 @@
 *Documentation page for the original project
 
-The goal was to develop a crisp, clean, and functional web page that deployed on GitHub pages w/ReadMe.md of the page's behavior.
+The objective was to develop a functional web page that deployed on GitHub pages with a ReadMe.md of the page's behavior.
 
-When the page is loaded, a typewriter function types out a welcome message. Found on css-tricks.com
+When the page loads, a button at the bottom asks the user to "click" the button to allow another image of a truck to be displayed. 
+
 
 Author: Tate Carden
 Version: 1.01, ran on mozilla firefox
